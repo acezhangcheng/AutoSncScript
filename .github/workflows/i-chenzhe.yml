@@ -22,7 +22,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/i-chenzhe/qx.git"
-          source_branch: "main"
+          source_repo: "https://github.com/sngxpro/AutoSyncScript.git"
+          source_branch: "i-chenzhe"
           destination_branch: "i-chenzhe"
           github_token: ${{ secrets.PAT }}
