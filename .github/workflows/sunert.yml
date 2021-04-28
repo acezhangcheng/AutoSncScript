@@ -7,7 +7,7 @@
 name: Sunert-sync
 on:
   schedule:
-    - cron: '3 */3 * * *'
+    - cron: ''
   workflow_dispatch:
   watch:
     types: started
